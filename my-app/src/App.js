@@ -1,24 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Profile from "Component/Profile";
+import Video from "Component/Video";
+import Video2 from "Component/Video2";
+import "./App.css";
 
 function App() {
+  let nama = "Firdaus";
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>Learning with Krisna</h1>
+      <Profile />
+      <div className="video">
+        <Video />
+      </div>
+      <div className="video2">
+        <Video2 />
+      </div>
     </div>
   );
 }

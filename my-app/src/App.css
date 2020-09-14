@@ -1,38 +1,79 @@
-.App {
+body {
   text-align: center;
+  background-color: beige;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+main {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+body header {
+  margin-top: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+main .card {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin-top: 20px;
+}
+
+main .card img {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+main .container {
+  padding: 2px 16px;
+  text-align: start;
+}
+
+main .container h5 {
+  margin-top: -20px;
+}
+
+main .container p {
+  margin-top: -10px;
+}
+
+/* Carousel */
+carousel {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+carousel .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 450px;
+  margin: 20px;
+  display: flex;
+  justify-content: start;
+  background-color: white;
+}
+
+carousel .card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+carousel video {
+  height: 7rem;
+  width: 12rem;
+  margin-top: 10px;
+  margin-left: 20px;
+  padding-bottom: 10px;
+}
+
+carousel .container {
+  padding: 2px 16px;
+  text-align: start;
+}
+
+/* Video 2 */
+.video2 {
+  margin-top: -50px;
 }
