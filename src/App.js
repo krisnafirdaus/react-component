@@ -5,7 +5,6 @@ import Video2 from "Component/Video2";
 import "./App.css";
 
 function App() {
-  let nama = "Firdaus";
   return (
     <div>
       <h1>Learning with Krisna</h1>
